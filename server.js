@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+const Schema = mongoose.Schema; //
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://agngosek:Techni12!@ds245478.mlab.com:45478/firstdatabase', {
